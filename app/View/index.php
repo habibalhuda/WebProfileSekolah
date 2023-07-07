@@ -1,0 +1,401 @@
+<main>
+
+
+
+    <section class="corausel-section slide-width">
+        <div id="carouselExampleIndicators" class="carousel slide slide-width" data-bs-ride="carousel">
+            <!--            <div class="carousel-indicators">-->
+            <!--                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
+            <!--                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
+            <!--                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
+            <!--            </div>-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/colleagues-working-cozy-office-medium-shot.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <!--            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">-->
+            <!--                <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+            <!--                <span class="visually-hidden">Previous</span>-->
+            <!--            </button>-->
+            <!--            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">-->
+            <!--                <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+            <!--                <span class="visually-hidden">Next</span>-->
+            <!--            </button>-->
+        </div>
+    </section>
+
+
+    <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 mx-auto">
+                    <h6 class="text-center">Selamat Datang</h6>
+                    <h1 class="text-white text-center">MTS NEGERI 2 SAMBAS</h1>
+
+                    <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text bi-search" id="basic-addon1">
+
+                            </span>
+
+                            <input name="keyword" type="search" class="form-control" id="keyword"
+                                placeholder="Apa yang ingin Anda cari?" aria-label="Search">
+
+                            <button type="submit" class="form-control button-color">Cari</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div
+                    class="col-lg-8 col-12 mx-auto mt-70 custom-block d-flex justify-content-between flex-column flex-lg-row">
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0 my-2 my-lg-0">
+                        <img class="rounded-4 img-fluid img-responsive" src="/images/faq_graphic.jpg" alt="img">
+                    </div>
+                    <div class="col-12 col-lg-8 my-2 my-lg-0 mx-lg-2">
+                        <h6>Pendaftaran Peserta Didik Baru</h6>
+                        <p class="text-box">Berikut informasi mengenai Penerimaan Peserta Didik Baru (PPDB) MTs Negeri 2
+                            Sambas T.P. 2023/2024. Untuk informasi lebih jelasnya ...</p>
+                        <a href="#" class="btn custom-btn mt-3 mt-lg-4 button-color">Read More</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="explore-section section-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 text-center">
+                    <h1 class="mb-4">Profile</h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="design-tab" data-bs-toggle="tab"
+                            data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane"
+                            aria-selected="true">Tentang
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="marketing-tab" data-bs-toggle="tab"
+                            data-bs-target="#marketing-tab-pane" type="button" role="tab"
+                            aria-controls="marketing-tab-pane" aria-selected="false">Fasilitas
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="finance-tab" data-bs-toggle="tab"
+                            data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane"
+                            aria-selected="false">Kegiatan Sekolah
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane"
+                            type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Visi dan
+                            Misi
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="education-tab" data-bs-toggle="tab"
+                            data-bs-target="#education-tab-pane" type="button" role="tab"
+                            aria-controls="education-tab-pane" aria-selected="false">Tenaga Pendidik
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel"
+                            aria-labelledby="design-tab" tabindex="0">
+                            <div class="row bg-light-green rounded-4">
+                                <div class="col-10 mx-auto p-5">
+                                    <h6 class="text-center">Selayang Pandang</h6>
+                                    <p class="text-box text-black text-justify">MTs Negeri 2 Sambas merupakan lembaga
+                                        pendidikan menengah tingkat pertama yang berada dibawah naungan Kementrian Agama
+                                        yang berciri Khas pelajar Agama Islam. Kurikulum yang digunakan di MTs Negeri 2
+                                        Sambas terdiri dari Kurikulum 2013 (K13) untuk 5 pelajaran Agama Islam (Aqidah
+                                        Akhlak, Fiqih, Quran Hadits, Sejarah Kebudayaan Islam dan Bahasa Arab). Tenaga
+                                        pengajar/guru yang dimiliki berjumlah 34 orang dengan 80%, sudah bersertifikat
+                                        guru professional.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel"
+                            aria-labelledby="marketing-tab" tabindex="0">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-green bg-box row align-content-center">
+                                    <h6 class="text-center">Ruang Belajar</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-yellow bg-box row align-content-center">
+                                    <h6 class="text-center">Ruang Perpustakaan</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-purple bg-box row align-content-center">
+                                    <h6 class="text-center">Lab IPA</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-blue bg-box row align-content-center">
+                                    <h6 class="text-center">Mushola</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-blue bg-box row align-content-center">
+                                    <h6 class="text-center">Ruang Osis & UKS</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-purple bg-box row align-content-center">
+                                    <h6 class="text-center">Koperasi Madrasah</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-yellow bg-box row align-content-center">
+                                    <h6 class="text-center">WiFi</h6>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 col-6 bg-light-green bg-box row align-content-center">
+                                    <h6 class="text-center">Lapangan Olahraga</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab"
+                            tabindex="0">
+                            <div class="row bg-light-green rounded-4">
+                                <div class="col-10 mx-auto p-5">
+                                    <h6 class="text-center">Kegiatan Sekolah</h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab"
+                            tabindex="0">
+                            <div class="row">
+                                <div class=" col-md-6 col-12 mb-4 mb-lg-3 box-visi">
+
+                                </div>
+
+                                <div class=" col-md-6 col-12 mb-4 mb-lg-3 box-misi">
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="education-tab-pane" role="tabpanel"
+                            aria-labelledby="education-tab" tabindex="0">
+                            <div class="row">
+                                <div class="slider">
+                                    <div class="owl-carousel">
+                                        <div class="slider-card">
+                                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                                <img src="/images/1.jpg" alt="">
+                                            </div>
+                                            <h5 class="mb-0 text-center"><b>Iskandar, S.Pd.I.</b></h5>
+                                            <p class="text-center p-4">Qur'an Hadits</p>
+                                        </div>
+                                        <div class="slider-card">
+                                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                                <img src="/images/2.jpg" alt="">
+                                            </div>
+                                            <h5 class="mb-0 text-center"><b>Parmin, S.Ag.</b></h5>
+                                            <p class="text-center p-4">Qur'an Hadits</p>
+                                        </div>
+                                        <div class="slider-card">
+                                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                                <img src="/images/3.jpg" alt="">
+                                            </div>
+                                            <h5 class="mb-0 text-center"><b>Sri Yani, S.Ag.</b></h5>
+                                            <p class="text-center p-4">Aqidah Akhlak</p>
+                                        </div>
+                                        <div class="slider-card">
+                                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                                <img src="/images/4.jpg" alt="">
+                                            </div>
+                                            <h5 class="mb-0 text-center"><b>Naim, S.Pd.</b></h5>
+                                            <p class="text-center p-4">Matematika</p>
+                                        </div>
+                                        <div class="slider-card">
+                                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                                <img src="/images/5.jpg" alt="">
+                                            </div>
+                                            <h5 class="mb-0 text-center"><b>Jamiat, S.Pd.</b></h5>
+                                            <p class="text-center p-4">Matematika</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <section class="timeline-section section-padding">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 text-center">
+                    <h1 class="text-white mb-4">Ekstrakurikuler</h1>
+                </div>
+
+                <div class="col-lg-10 col-12 mx-auto">
+                    <div class="timeline-container">
+                        <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                            <div class="list-progress">
+                                <div class="inner"></div>
+                            </div>
+
+                            <li>
+                                <h4 class="text-white mb-3">Pramuka</h4>
+
+                                <p class="text-white">Melatih peserta didik untuk terampil dan mandiri dan melatih untuk
+                                    berorganisasi dan kepemimpinan Memiliki jiwa sosial dan peduli kepada orang
+                                    lain.</p>
+
+                                <div class="icon-holder">
+                                    <img src="/images/pramuka.png">
+                                </div>
+                            </li>
+
+                            <li>
+                                <h4 class="text-white mb-3">PMR</h4>
+
+                                <p class="text-white">Palang Merah Remaja (PMR) adalah organisasi kepanduan dan
+                                    kemanusiaan yang bergerak di bidang sosial dan kesehatan. </p>
+
+                                <div class="icon-holder">
+                                    <img src="/images/pmr.png">
+                                </div>
+                            </li>
+                            <li>
+                                <h4 class="text-white mb-3">Olahraga</h4>
+
+                                <p class="text-white">Melibatkan siswa dalam berbagai jenis olahraga yakni futsal, voli
+                                    ball, tenis meja, bulu tangkis, dan bela diri.</p>
+
+                                <div class="icon-holder">
+                                    <img src="/images/olahraga.png">
+                                </div>
+                            </li>
+                            <li>
+                                <h4 class="text-white mb-3">Seni</h4>
+
+                                <p class="text-white">Kegiatan di sekolah yang berfokus pada pengembangan bakat seni dan
+                                    pemahaman terhadap budaya serta keagamaan yakni Seni Tari dan Tilawah</p>
+
+                                <div class="icon-holder">
+                                    <img src="/images/Seni.png">
+                                </div>
+                            </li>
+
+                            <li>
+                                <h4 class="text-white mb-3">Bahasa</h4>
+
+                                <p class="text-white">Memberikan kesempatan kepada siswa untuk memperdalam pemahaman dan
+                                    penggunaan Bahasa Inggris dan Arab di luar jam pelajaran reguler.</p>
+
+                                <div class="icon-holder">
+                                    <img src="/images/bahasa.png">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="faq-section section-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                    <h2 class="mb-4">Prestasi</h2>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="col-lg-5 col-12">
+                    <img src="images/prestasi.png" class="img-fluid" alt="FAQs">
+                </div>
+
+                <div class="col-lg-6 col-12 m-auto">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Prestasi Siswa
+                                </button>
+                            </h2>
+
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Juara 1 MTK KSM Tk. Kabupaten Sambas ( 2017 )
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Prestasi Guru
+                                </button>
+                            </h2>
+
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Juara 1 MTK KSM Tk. Kabupaten Sambas ( 2017 )
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Prestasi Sekolah
+                                </button>
+                            </h2>
+
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Juara 1 MTK KSM Tk. Kabupaten Sambas ( 2017 )
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
